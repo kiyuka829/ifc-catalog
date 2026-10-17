@@ -41,7 +41,7 @@ local/          元データの作業領域（Git管理対象外、必要時に�
 | `ifc_schemas` | データセットのスキーマ一覧。公開元の記載か実測かを本文に明記 |
 | `dataset` | IFCが属するデータセットへの内部リンク |
 | `filename` | IFCファイルの実際の名前 |
-| `archive_name` / `archive_path` | 元の配布アーカイブ名と、その内部での相対パス。直接配布なら空欄 |
+| `archive_name` / `archive_path` | 元の配布アーカイブ名と、その内部での相対パス。内包アーカイブは `内包ZIPのパス!/IFCのパス` と記録。直接配布なら空欄 |
 | `size_bytes` | 実物で確認したIFCのバイト数。モデルノートにのみ記録 |
 | `ifc_schema` | 実物の `FILE_SCHEMA` で確認したスキーマ |
 | `sha256` | 実物のSHA-256。`shasum -a 256 <ファイルのパス>` で計算可能 |
