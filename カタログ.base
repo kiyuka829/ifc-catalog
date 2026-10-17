@@ -1,0 +1,66 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+        - and:
+            - file.inFolder("datasets")
+            - type == "dataset"
+        - and:
+            - file.inFolder("models")
+            - type == "model"
+formulas:
+  size_mb: if(size_bytes, (size_bytes / 1000000).round(1), "")
+properties:
+  file.name:
+    displayName: ノート
+  note.name:
+    displayName: 名称
+  note.source_url:
+    displayName: 公開元
+  note.license:
+    displayName: ライセンス
+  note.checked_on:
+    displayName: 確認日
+  note.tags:
+    displayName: タグ
+  note.ifc_schemas:
+    displayName: スキーマ一覧
+  note.dataset:
+    displayName: データセット
+  note.ifc_schema:
+    displayName: IFCスキーマ
+  formula.size_mb:
+    displayName: 実測サイズ（MB）
+views:
+  - type: table
+    name: データセット
+    filters: type == "dataset"
+    order:
+      - file.name
+      - name
+      - source_url
+      - license
+      - ifc_schemas
+      - checked_on
+      - tags
+  - type: table
+    name: IFCモデル
+    filters: type == "model"
+    order:
+      - file.name
+      - dataset
+      - ifc_schema
+      - formula.size_mb
+      - checked_on
+  - type: table
+    name: 500 MB以上
+    filters:
+      and:
+        - type == "model"
+        - size_bytes >= 500000000
+    order:
+      - file.name
+      - dataset
+      - ifc_schema
+      - formula.size_mb
+      - checked_on
