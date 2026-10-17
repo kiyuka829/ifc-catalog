@@ -12,7 +12,8 @@
 
 ```text
 datasets/       データセットごとのノート（公開元・ライセンス・配布ファイル）
-models/         個別IFCのノート（ファイル名・サイズ・スキーマ・ハッシュ）
+models/         データセットごとのフォルダに個別IFCのノートを保存
+  <dataset-id>/ ファイル名・サイズ・スキーマ・ハッシュ
 templates/      新規ノート用のひな形
 カタログ.base   一覧の表示設定
 local/          元データの作業領域（Git管理対象外、必要時に作成）
@@ -21,7 +22,7 @@ local/          元データの作業領域（Git管理対象外、必要時に�
 ## 追加・更新
 
 - データセットを登録するときは [ひな形](templates/dataset.md)を `datasets/<dataset-id>.md` にコピーし、プロパティと本文を埋める。
-- IFCを登録するときは [ひな形](templates/model.md)を `models/<一意な名前>.md` にコピーし、`dataset` に `"[[datasets/<dataset-id>]]"` を指定する。
+- IFCを登録するときは [ひな形](templates/model.md)を `models/<dataset-id>/<モデル名>.md` にコピーし、`dataset` に `"[[datasets/<dataset-id>]]"` を指定する。
 - ひな形の `{{title}}` はノート名に置き換える。Obsidianのテンプレート機能を使う場合は、テンプレートフォルダを `templates` に設定する。
 
 ### 情報の記録場所

@@ -26,7 +26,7 @@ IFCの相互運用性検証向けに、さまざまなバージョン・MVD・�
 
 - 配布URL: [20210219Architecture.ifc](https://openifcmodel.cs.auckland.ac.nz/api/download/20210219Architecture.ifc)
 - 形式: `ifc`
-- モデル: [[models/auckland-20210219Architecture]]
+- モデル: [[models/auckland-open-ifc/20210219Architecture]]
 
 ## メモ
 

@@ -32,14 +32,14 @@ Institute for Automation and Applied Informatics (IAI) / Karlsruhe Institute of 
 - 公開元の名称: FZK Haus（架空の住宅）
 - 配布URL: [AC20-FZK-Haus.ifc](https://www.ifcwiki.org/images/e/e3/AC20-FZK-Haus.ifc)
 - 形式: `ifc`
-- モデル: [[models/kit-fzk-haus]]
+- モデル: [[models/kit-ifc-examples/fzk-haus]]
 
 ### AC20-Institute-Var-2.ifc
 
 - 公開元の名称: Office Building（架空のオフィス）
 - 配布URL: [AC20-Institute-Var-2.ifc](https://www.ifcwiki.org/images/9/98/AC20-Institute-Var-2.ifc)
 - 形式: `ifc`
-- モデル: [[models/kit-office-building]]
+- モデル: [[models/kit-ifc-examples/office-building]]
 
 ### AC-20-Smiley-West-10-Bldg.zip
 
@@ -47,4 +47,4 @@ Institute for Automation and Applied Informatics (IAI) / Karlsruhe Institute of 
 - 配布URL: [AC-20-Smiley-West-10-Bldg.zip](https://www.ifcwiki.org/images/c/c8/AC-20-Smiley-West-10-Bldg.zip)
 - 形式: `zip`
 - 圧縮ファイルサイズ: 1280471 bytes
-- モデル: [[models/kit-smiley-west]]
+- モデル: [[models/kit-ifc-examples/smiley-west]]
