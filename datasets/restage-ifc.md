@@ -22,9 +22,3 @@ RWTH Aachenの建設実証施設RestageのIFCモデル。部材・組立・工�
 
 - 配布URL: [Restage_IP_ALL_MULTI_001.ifc](https://zenodo.org/api/records/21470658/files/Restage_IP_ALL_MULTI_001.ifc/content)
 - 形式: `ifc`
-- 公開元のサイズ: 189817172 bytes
-- SHA-256: 未確認
-
-## メモ
-
-- 単体IFCとして配布。IFCスキーマと部材数は未確認。

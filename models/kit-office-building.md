@@ -11,5 +11,3 @@ checked_on: '2026-10-17'
 ---
 
 # Office Building
-
-## 検証メモ

@@ -27,19 +27,14 @@ TUMの授業で制作された匿名化済みの建築IFCモデル群。
 
 - 配布URL: [2025_BIMfundamentals.zip](https://zenodo.org/api/records/19722012/files/2025_BIMfundamentals.zip/content)
 - 形式: `zip`
-- 公開元のサイズ: 503285210 bytes
-- SHA-256: 未確認
+- 圧縮ファイルサイズ: 503285210 bytes
 
 ### 2026_BIMprojects.zip
 
 - 配布URL: [2026_BIMprojects.zip](https://zenodo.org/api/records/19722012/files/2026_BIMprojects.zip/content)
 - 形式: `zip`
-- 公開元のサイズ: 221053555 bytes
-- SHA-256: `72aa9c584d1ccbc8ccc69dccbb32d91047cc15cc2631f4a6fcac3bef89e34781`
-- 実測サイズ: 221053555 bytes
-- 公開元のチェックサム: `md5:bc4bfb90313162c68a3ec4e24a0d33cf`
-- 公開元のチェックサムとの照合: 一致
+- 圧縮ファイルサイズ: 221053555 bytes
 
 ## メモ
 
-- スキーマ一覧は公開元の記載。取得済みIFCのスキーマ・サイズ・SHA-256は各モデルノートに記録。
+- スキーマ一覧は公開元の記載。

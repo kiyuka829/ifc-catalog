@@ -22,10 +22,4 @@ GeoBIM Benchmark 2019のTask 1で実施されたIFCエクスポート検証の�
 
 - 配布URL: [benchmarkTask1_exportedIFC.zip](https://zenodo.org/api/records/3964368/files/benchmarkTask1_exportedIFC.zip/content)
 - 形式: `zip`
-- 公開元のサイズ: 4995855162 bytes
-- SHA-256: 未確認
-
-## メモ
-
-- 約5.0 GBはZIPの配布サイズ。単体IFCのサイズではない。
-- ZIP内部のファイル一覧とIFCスキーマは未確認。
+- 圧縮ファイルサイズ: 4995855162 bytes

@@ -22,10 +22,7 @@ CRAS labs@FEUPの屋内空間のas-built IFCモデル。Scan-to-BIM / Scan-vs-BI
 
 - 配布URL: [craslabbim.ifc](https://zenodo.org/api/records/7948116/files/craslabbim.ifc/content)
 - 形式: `ifc`
-- 公開元のサイズ: 67553572 bytes
-- SHA-256: 未確認
 
 ## メモ
 
 - 公開元では注釈付き点群のZIPも配布しているが、このカタログにはIFCのみ登録。
-- IFCスキーマと部材数は未確認。
