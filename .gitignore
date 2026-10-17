@@ -1,0 +1,18 @@
+.DS_Store
+
+# Obsidianの端末固有設定・画面配置・キャッシュ
+/.obsidian/
+
+# ダウンロード・展開・解析の作業領域
+/local/
+
+# 元データはカタログに含めない
+*.[iI][fF][cC]
+*.[iI][fF][cC][xX][mM][lL]
+*.[iI][fF][cC][zZ][iI][pP]
+*.[zZ][iI][pP]
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
