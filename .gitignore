@@ -1,5 +1,10 @@
 .DS_Store
 
+# Python
+/.venv/
+__pycache__/
+*.pyc
+
 # Obsidianの端末固有設定・画面配置・キャッシュ
 /.obsidian/
 

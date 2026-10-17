@@ -46,3 +46,12 @@ local/          元データの作業領域（Git管理対象外、必要時に�
 | `ifc_schema` | 実物の `FILE_SCHEMA` で確認したスキーマ |
 | `sha256` | 実物のSHA-256。`shasum -a 256 <ファイルのパス>` で計算可能 |
 | `checked_on` | 情報を確認した日。データセットでは公開元・配布情報、モデルでは実物の確認日 |
+
+## Python環境とIFCの集計
+
+[uv](https://docs.astral.sh/uv/) でPython 3.12とIfcOpenShell 0.9.0の環境を作成する。
+
+```sh
+uv sync --locked
+uv run python scripts/inspect_ifc.py local/example.ifc > local/example-summary.json
+```
