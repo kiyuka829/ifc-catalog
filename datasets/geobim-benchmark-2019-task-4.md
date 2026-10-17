@@ -19,6 +19,8 @@ ifc_schemas:
 
 GeoBIM Benchmark 2019のIFC・CityGML相互変換テストの成果。
 
+- タスク説明: [GeoBIM benchmark – Task 4](https://3d.bk.tudelft.nl/projects/geobim-benchmark/task4.html)
+
 ## 配布ファイル
 
 ### T4_AmsterdamLoD1_FZK_IFC4.rar

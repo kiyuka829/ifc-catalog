@@ -16,6 +16,8 @@ ifc_schemas: []
 
 GeoBIM Benchmark 2019のTask 1で実施されたIFCエクスポート検証の出力データ。
 
+- タスク説明: [GeoBIM benchmark – Task 1](https://3d.bk.tudelft.nl/projects/geobim-benchmark/task1.html)
+
 ## 配布ファイル
 
 ### benchmarkTask1_exportedIFC.zip
