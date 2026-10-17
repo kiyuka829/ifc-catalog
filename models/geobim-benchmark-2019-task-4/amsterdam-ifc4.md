@@ -16,7 +16,7 @@ quantity_set_count: 0
 quantity_count: 0
 length_unit: "METRE"
 length_unit_scale: 1.0
-checked_on: '2026-10-17'
+projected_crs_name: "EPSG:7415"
 ---
 
 # T4_AmsterdamLoD1_FZK_IFC4_AUsmani

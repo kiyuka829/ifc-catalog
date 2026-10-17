@@ -16,7 +16,7 @@ quantity_set_count: 10
 quantity_count: 34
 length_unit: "MILLIMETRE"
 length_unit_scale: 0.001
-checked_on: '2026-10-17'
+projected_crs_name: "EPSG:32760"
 ---
 
 # Building-Structural（IFC4）

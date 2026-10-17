@@ -16,7 +16,7 @@ quantity_set_count: 7
 quantity_count: 25
 length_unit: "MILLIMETRE"
 length_unit_scale: 0.001
-checked_on: '2026-10-17'
+projected_crs_name: null
 ---
 
 # Building-Architecture（IFC2X3）

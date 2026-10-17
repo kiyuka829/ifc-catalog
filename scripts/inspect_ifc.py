@@ -1,10 +1,11 @@
-"""IFCの件数とプロジェクトの長さ単位をJSONで出力する。"""
+"""IFCの情報をJSONで出力する。"""
 
 import argparse
 import json
 from pathlib import Path
 
 import ifcopenshell
+import ifcopenshell.util.geolocation
 import ifcopenshell.util.unit
 
 
@@ -21,12 +22,14 @@ COUNT_TYPES = {
 def summarize(model):
     counts = {key: len(model.by_type(parent)) for key, parent in COUNT_TYPES.items()}
     unit = ifcopenshell.util.unit.get_project_unit(model, "LENGTHUNIT")
+    crs = ifcopenshell.util.geolocation.get_crs(model)
     return {
         "ifc_schema": model.schema_identifier,
         "instance_count": len(model.entity_names()),
         **counts,
         "length_unit": ifcopenshell.util.unit.get_full_unit_name(unit) if unit else "METRE",
         "length_unit_scale": ifcopenshell.util.unit.calculate_unit_scale(model),
+        "projected_crs_name": crs.get("Name") if crs else None,
     }
 
 

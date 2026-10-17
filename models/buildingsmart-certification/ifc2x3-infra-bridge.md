@@ -16,7 +16,7 @@ quantity_set_count: 15
 quantity_count: 27
 length_unit: "MILLIMETRE"
 length_unit_scale: 0.001
-checked_on: '2026-10-17'
+projected_crs_name: null
 ---
 
 # Infra-Bridge（IFC2X3）

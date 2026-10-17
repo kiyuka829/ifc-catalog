@@ -50,7 +50,8 @@ local/          元データの作業領域（Git管理対象外、必要時に�
 | `property_set_count` / `property_count` | `IfcPropertySet` / `IfcProperty` の件数。派生型を含む |
 | `quantity_set_count` / `quantity_count` | `IfcElementQuantity` / `IfcPhysicalQuantity` の件数。派生型を含む |
 | `length_unit` / `length_unit_scale` | プロジェクトの長さ単位とメートルへの換算係数。未指定の場合は `METRE` と `1` |
-| `checked_on` | 情報を確認した日。データセットでは公開元・配布情報、モデルでは実物の確認日 |
+| `projected_crs_name` | CRS名 |
+| `checked_on` | 公開元・配布情報を確認した日（データセットノートのみ） |
 
 ## Python環境とIFCの集計
 

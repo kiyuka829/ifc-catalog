@@ -16,7 +16,7 @@ quantity_set_count: 176
 quantity_count: 3284
 length_unit: "METRE"
 length_unit_scale: 1.0
-checked_on: '2026-10-17'
+projected_crs_name: null
 ---
 
 # FZK Haus

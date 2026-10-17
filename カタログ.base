@@ -29,6 +29,8 @@ properties:
     displayName: データセット
   note.ifc_schema:
     displayName: IFCスキーマ
+  note.projected_crs_name:
+    displayName: CRS名
   formula.size_mb:
     displayName: 実測サイズ（MB）
 views:
@@ -50,8 +52,11 @@ views:
       - file.name
       - dataset
       - ifc_schema
+      - projected_crs_name
       - formula.size_mb
-      - checked_on
+    columnSize:
+      note.projected_crs_name: 138
+      formula.size_mb: 109
   - type: table
     name: 500 MB以上
     filters:
@@ -62,5 +67,5 @@ views:
       - file.name
       - dataset
       - ifc_schema
+      - projected_crs_name
       - formula.size_mb
-      - checked_on

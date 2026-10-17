@@ -16,7 +16,7 @@ quantity_set_count: 24
 quantity_count: 72
 length_unit: "MILLIMETRE"
 length_unit_scale: 0.001
-checked_on: '2026-10-17'
+projected_crs_name: "EPSG:3857"
 ---
 
 # DigitalHub 衛生設備（V2）

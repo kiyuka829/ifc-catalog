@@ -16,7 +16,7 @@ quantity_set_count: 194
 quantity_count: 864
 length_unit: "METRE"
 length_unit_scale: 1.0
-checked_on: '2026-10-17'
+projected_crs_name: null
 ---
 
 # model_8_structure

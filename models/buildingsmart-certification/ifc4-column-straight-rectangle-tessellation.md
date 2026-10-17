@@ -16,7 +16,7 @@ quantity_set_count: 0
 quantity_count: 0
 length_unit: "INCH"
 length_unit_scale: 0.0254
-checked_on: '2026-10-17'
+projected_crs_name: null
 ---
 
 # column-straight-rectangle-tessellation（IFC4）

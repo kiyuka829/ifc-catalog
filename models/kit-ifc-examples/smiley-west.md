@@ -16,7 +16,7 @@ quantity_set_count: 1067
 quantity_count: 8463
 length_unit: "METRE"
 length_unit_scale: 1.0
-checked_on: '2026-10-17'
+projected_crs_name: null
 ---
 
 # Smiley West

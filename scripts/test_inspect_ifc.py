@@ -10,6 +10,31 @@ from inspect_ifc import COUNT_TYPES, summarize
 
 
 class SummaryTest(unittest.TestCase):
+    def test_projected_crs_name(self):
+        for schema in ("IFC2X3", "IFC4", "IFC4X3_ADD2"):
+            with self.subTest(schema=schema), tempfile.TemporaryDirectory() as directory:
+                model = ifcopenshell.file(schema=schema)
+                project = model.create_entity("IfcProject", GlobalId=ifcopenshell.guid.new())
+                self.assertIsNone(summarize(model)["projected_crs_name"])
+                if schema == "IFC2X3":
+                    prop = model.create_entity("IfcPropertySingleValue", Name="Name", NominalValue=model.create_entity("IfcLabel", "EPSG:32760"))
+                    pset = model.create_entity("IfcPropertySet", GlobalId=ifcopenshell.guid.new(), Name="ePSet_ProjectedCRS", HasProperties=[prop])
+                    model.create_entity("IfcRelDefinesByProperties", GlobalId=ifcopenshell.guid.new(), RelatedObjects=[project], RelatingPropertyDefinition=pset)
+                else:
+                    contexts = []
+                    for name in ("EPSG:32760", "EPSG:6668"):
+                        origin = model.create_entity("IfcCartesianPoint", Coordinates=(0.0, 0.0, 0.0))
+                        placement = model.create_entity("IfcAxis2Placement3D", Location=origin)
+                        context = model.create_entity("IfcGeometricRepresentationContext", CoordinateSpaceDimension=3, WorldCoordinateSystem=placement)
+                        crs = model.create_entity("IfcProjectedCRS", Name=name)
+                        model.create_entity("IfcMapConversion", SourceCRS=context, TargetCRS=crs, Eastings=0.0, Northings=0.0, OrthogonalHeight=0.0)
+                        contexts.append(context)
+                    project.RepresentationContexts = contexts
+                path = Path(directory) / "crs.ifc"
+                model.write(path)
+                for lazy in (False, True):
+                    self.assertEqual(summarize(ifcopenshell.open(path, lazy=lazy))["projected_crs_name"], "EPSG:32760")
+
     def test_lazy_matches_eager(self):
         for schema in ("IFC2X3", "IFC4", "IFC4X3_ADD2"):
             with self.subTest(schema=schema), tempfile.TemporaryDirectory() as directory:

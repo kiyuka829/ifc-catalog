@@ -16,7 +16,7 @@ quantity_set_count: 722
 quantity_count: 3207
 length_unit: "METRE"
 length_unit_scale: 1.0
-checked_on: '2026-10-17'
+projected_crs_name: "EPSG:3857"
 ---
 
 # DigitalHub 建築（V2）

@@ -16,7 +16,7 @@ quantity_set_count: 0
 quantity_count: 0
 length_unit: "FOOT"
 length_unit_scale: 0.3048
-checked_on: '2026-10-17'
+projected_crs_name: null
 ---
 
 # 20210219Architecture

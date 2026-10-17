@@ -16,7 +16,7 @@ quantity_set_count: 0
 quantity_count: 0
 length_unit: "MILLIMETRE"
 length_unit_scale: 0.001
-checked_on: '2026-10-17'
+projected_crs_name: null
 ---
 
 # T2_Myran_Revit2020_IFC2x3
