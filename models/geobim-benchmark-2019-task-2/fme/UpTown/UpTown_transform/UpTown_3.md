@@ -7,6 +7,15 @@ archive_path: benchmarkTask2_georeferencedIFC/Task2_FME.zip!/UpTown/UpTown_trans
 ifc_schema: IFC2X3
 size_bytes: 159463354
 sha256: 58b64c2c91ddae3e915df338d96e1c7d84cde68252b57acef290e6f60e62b34d
+instance_count: 2812721
+product_count: 46614
+element_count: 46576
+property_set_count: 27871
+property_count: 77537
+quantity_set_count: 2667
+quantity_count: 7605
+length_unit: "METRE"
+length_unit_scale: 1
 checked_on: '2026-10-17'
 ---
 

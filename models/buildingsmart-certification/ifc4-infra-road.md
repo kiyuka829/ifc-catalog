@@ -7,6 +7,15 @@ archive_path: null
 ifc_schema: IFC4
 size_bytes: 277133
 sha256: ebc5c85f6da454de08dc63675af242b6572682692682dff1a064a71b6bcd73e8
+instance_count: 1051
+product_count: 92
+element_count: 81
+property_set_count: 0
+property_count: 0
+quantity_set_count: 26
+quantity_count: 78
+length_unit: "MILLIMETRE"
+length_unit_scale: 0.001
 checked_on: '2026-10-17'
 ---
 

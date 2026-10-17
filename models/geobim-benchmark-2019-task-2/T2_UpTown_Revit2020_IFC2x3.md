@@ -7,6 +7,15 @@ archive_path: benchmarkTask2_georeferencedIFC/T2_UpTown_Revit2020_IFC2x3.ifc
 ifc_schema: IFC2X3
 size_bytes: 778249360
 sha256: b13b8b644ec9345b03ede1e54e29d3bf10ff340bfbca1bb9d6e69e253391e0fa
+instance_count: 13513326
+product_count: 31394
+element_count: 31357
+property_set_count: 140012
+property_count: 71870
+quantity_set_count: 0
+quantity_count: 0
+length_unit: "MILLIMETRE"
+length_unit_scale: 0.001
 checked_on: '2026-10-17'
 ---
 

@@ -7,6 +7,15 @@ archive_path: null
 ifc_schema: null
 size_bytes: null
 sha256: null
+instance_count: null
+product_count: null
+element_count: null
+property_set_count: null
+property_count: null
+quantity_set_count: null
+quantity_count: null
+length_unit: null
+length_unit_scale: null
 checked_on: null
 ---
 

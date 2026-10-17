@@ -7,6 +7,15 @@ archive_path: benchmarkTask2_georeferencedIFC/T4_Savigliano_FZKViewer_IFC2x3.ifc
 ifc_schema: IFC2X3
 size_bytes: 6729704
 sha256: ee9707aaf796502717d35a761a8230f60372bd6bcc94fc9d1d4ef072ff020ff0
+instance_count: 107952
+product_count: 2939
+element_count: 2868
+property_set_count: 2582
+property_count: 8854
+quantity_set_count: 0
+quantity_count: 0
+length_unit: "METRE"
+length_unit_scale: 1.0
 checked_on: '2026-10-17'
 ---
 

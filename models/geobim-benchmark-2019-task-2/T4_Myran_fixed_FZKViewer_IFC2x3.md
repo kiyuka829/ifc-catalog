@@ -7,6 +7,15 @@ archive_path: benchmarkTask2_georeferencedIFC/T4_Myran_fixed_FZKViewer_IFC2x3.if
 ifc_schema: IFC2X3
 size_bytes: 77409853
 sha256: 80d2798f6f06491058ed7a14be2cff3f0b423b05b13608512b372f036e8329b0
+instance_count: 1314326
+product_count: 2091
+element_count: 2086
+property_set_count: 1887
+property_count: 4185
+quantity_set_count: 0
+quantity_count: 0
+length_unit: "MILLIMETRE"
+length_unit_scale: 0.001
 checked_on: '2026-10-17'
 ---
 

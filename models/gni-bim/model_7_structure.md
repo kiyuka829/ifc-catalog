@@ -7,6 +7,15 @@ archive_path: 2026_BIMprojects/model_7_structure.ifc
 ifc_schema: IFC2X3
 size_bytes: 3077417
 sha256: 19b18898bc4da39c414aa9771ca8988164c7e66f419b0c7b0367efa1fb266d8d
+instance_count: 52750
+product_count: 876
+element_count: 860
+property_set_count: 2494
+property_count: 1053
+quantity_set_count: 0
+quantity_count: 0
+length_unit: "MILLIMETRE"
+length_unit_scale: 0.001
 checked_on: '2026-10-17'
 ---
 
