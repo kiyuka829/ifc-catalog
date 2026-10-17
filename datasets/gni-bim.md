@@ -2,7 +2,7 @@
 type: dataset
 id: gni-bim
 name: GNI BIM Dataset
-source_url: https://zenodo.org/records/19722012
+source_url: https://github.com/ZijianWang-ZW/GNI-BIM-Dataset
 license: CC-BY-4.0
 checked_on: '2026-10-17'
 tags:
@@ -17,6 +17,9 @@ ifc_schemas:
 # GNI BIM Dataset
 
 TUMの授業で制作された匿名化済みの建築IFCモデル群。
+
+- 公開元: [GNI-BIM-Dataset（GitHub）](https://github.com/ZijianWang-ZW/GNI-BIM-Dataset)
+- データ配布先: [Zenodo](https://zenodo.org/records/19722012)
 
 ## 配布ファイル
 
@@ -39,6 +42,4 @@ TUMの授業で制作された匿名化済みの建築IFCモデル群。
 
 ## メモ
 
-- 2026_BIMprojects.zipと展開済みIFC 16件を確認。個別の確認結果はmodels/のIFCノートに記録。2025_BIMfundamentals.zipの内部は未確認。
-- アーカイブのMD5は公開元と一致。
-- ifc_schemasはデータセット全体について公開元が記載するもの。実物で確認した各ファイルのスキーマはmodels/のIFCノートに記録。
+- スキーマ一覧は公開元の記載。取得済みIFCのスキーマ・サイズ・SHA-256は各モデルノートに記録。
