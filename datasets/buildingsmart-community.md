@@ -27,21 +27,21 @@ ifc_schemas:
 - 確認時のコミット: `7ddf57a201f88a0c213d5322b02ed15e94a60a40`
 - ライセンス: [CC BY 4.0](https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/LICENSE)
 
-## IFCの取得
+## IFC・IFCZIPの取得
 
-Git LFS導入済みの環境で、確認版のIFC本体のみを取得する。
+Git LFS導入済みの環境で、LFSの取得対象をIFC・IFCZIPに限定する。IFCZIPは通常のGit管理のため、clone時に取得される。
 
 ```sh
 GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/buildingsmart-community/Community-Sample-Test-Files.git
 cd Community-Sample-Test-Files
 git lfs install --local
 GIT_LFS_SKIP_SMUDGE=1 git checkout 7ddf57a201f88a0c213d5322b02ed15e94a60a40
-git lfs pull --include="*.ifc,*.IFC" --exclude=""
+git lfs pull --include="*.ifc,*.IFC,*.ifczip,*.ifcZIP" --exclude=""
 ```
 
 ## 配布ファイル
 
-確認版の直接配布IFC全171ファイルを掲載。同一SHA-256のIFCはモデルノートをまとめている（166件）。
+確認版の直接配布IFC全171ファイルとIFCZIP全27ファイルを掲載。同一SHA-256のIFCはモデルノートをまとめている（展開後も含め180件）。
 
 ### IFC 2.3.0.1 (IFC 2x3) / Duplex Apartment
 
@@ -383,6 +383,45 @@ git lfs pull --include="*.ifc,*.IFC" --exclude=""
 | 配布ファイル | モデル |
 | --- | --- |
 | [UT_SpatialStructure_4.ifc](https://media.githubusercontent.com/media/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/dev%20archive/IFC%204.3.RC%20Archive/UT_SpatialStructure_4%20%28RC4%29/UT_SpatialStructure_4.ifc) | [[models/buildingsmart-community/ut-spatialstructure-4]] |
+
+## IFCZIP配布ファイル
+
+### IFC 2.3.0.1 (IFC 2x3) / Schependomlaan / Coordination model and subcontractors models / BIMsight Projectdata1
+
+| 配布ファイル | 圧縮ファイルサイズ（bytes） | ZIP内のIFC | モデル |
+| --- | --- | --- | --- |
+| [LINDEN - Kozijnen.ifcZIP](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/LINDEN%20-%20Kozijnen.ifcZIP) | 460876 | `002.ifc` | [[models/buildingsmart-community/002]] |
+| [ROOT-Compleet.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-Compleet.ifczip) | 8873221 | `IFC-gebouw.ifc` | [[models/buildingsmart-community/ifc-gebouw]] |
+| [ROOT-Vebo.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-Vebo.ifczip) | 232375 | `IFC-Vebo.ifc` | [[models/buildingsmart-community/ifc-vebo]] |
+| [ROOT-breedplaatvloeren.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-breedplaatvloeren.ifczip) | 116132 | `IFC-breedplaatvloeren.ifc` | [[models/buildingsmart-community/ifc-breedplaatvloeren]] |
+| [ROOT-houten kozijnen.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-houten%20kozijnen.ifczip) | 1898930 | `IFC-houten kozijnen.ifc` | [[models/buildingsmart-community/ifc-houten-kozijnen]] |
+| [ROOT-kalkzandsteen.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-kalkzandsteen.ifczip) | 262213 | `IFC-kalkzandsteen.ifc` | [[models/buildingsmart-community/ifc-kalkzandsteen]] |
+| [ROOT-kanaalplaatvloer.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-kanaalplaatvloer.ifczip) | 76281 | `IFC-kanaalplaatvloer.ifc` | [[models/buildingsmart-community/ifc-kanaalplaatvloer]] |
+| [ROOT-kapconstructie_dakkapellen_platdak.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-kapconstructie_dakkapellen_platdak.ifczip) | 348082 | `IFC-kapconstructie_dakkapellen_platdak.ifc` | [[models/buildingsmart-community/ifc-kapconstructie-dakkapellen-platdak]] |
+| [ROOT-lateien_en_geveldragers.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-lateien_en_geveldragers.ifczip) | 85708 | `IFC-lateien_en_geveldragers.ifc` | [[models/buildingsmart-community/ifc-lateien-en-geveldragers]] |
+| [ROOT-prefab_balkons.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-prefab_balkons.ifczip) | 12864 | `IFC-prefab_balkons.ifc` | [[models/buildingsmart-community/ifc-prefab-balkons]] |
+| [ROOT-prefab_trappen.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-prefab_trappen.ifczip) | 39017 | `IFC-prefab_trappen.ifc` | [[models/buildingsmart-community/ifc-prefab-trappen]] |
+| [ROOT-prefab_vloer_lifttop.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-prefab_vloer_lifttop.ifczip) | 7961 | `IFC-prefab_vloer_lifttop.ifc` | [[models/buildingsmart-community/ifc-prefab-vloer-lifttop]] |
+| [ROOT-staal.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-staal.ifczip) | 170769 | `IFC-staal.ifc` | [[models/buildingsmart-community/ifc-staal]] |
+| [ROOT-traphekken.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-traphekken.ifczip) | 65394 | `IFC-traphekken.ifc` | [[models/buildingsmart-community/ifc-traphekken]] |
+
+### IFC 2.3.0.1 (IFC 2x3) / Schependomlaan / Coordination model and subcontractors models / BIMsight Projectdata1 / ProjectData
+
+| 配布ファイル | 圧縮ファイルサイズ（bytes） | ZIP内のIFC | モデル |
+| --- | --- | --- | --- |
+| [ROOT-Compleet.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-Compleet.ifczip) | 8873221 | `IFC-gebouw.ifc` | [[models/buildingsmart-community/ifc-gebouw]]（同一内容） |
+| [ROOT-Vebo.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-Vebo.ifczip) | 232375 | `IFC-Vebo.ifc` | [[models/buildingsmart-community/ifc-vebo]]（同一内容） |
+| [ROOT-breedplaatvloeren.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-breedplaatvloeren.ifczip) | 116132 | `IFC-breedplaatvloeren.ifc` | [[models/buildingsmart-community/ifc-breedplaatvloeren]]（同一内容） |
+| [ROOT-houten kozijnen.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-houten%20kozijnen.ifczip) | 1898930 | `IFC-houten kozijnen.ifc` | [[models/buildingsmart-community/ifc-houten-kozijnen]]（同一内容） |
+| [ROOT-kalkzandsteen.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-kalkzandsteen.ifczip) | 262213 | `IFC-kalkzandsteen.ifc` | [[models/buildingsmart-community/ifc-kalkzandsteen]]（同一内容） |
+| [ROOT-kanaalplaatvloer.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-kanaalplaatvloer.ifczip) | 76281 | `IFC-kanaalplaatvloer.ifc` | [[models/buildingsmart-community/ifc-kanaalplaatvloer]]（同一内容） |
+| [ROOT-kapconstructie_dakkapellen_platdak.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-kapconstructie_dakkapellen_platdak.ifczip) | 348082 | `IFC-kapconstructie_dakkapellen_platdak.ifc` | [[models/buildingsmart-community/ifc-kapconstructie-dakkapellen-platdak]]（同一内容） |
+| [ROOT-lateien_en_geveldragers.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-lateien_en_geveldragers.ifczip) | 85708 | `IFC-lateien_en_geveldragers.ifc` | [[models/buildingsmart-community/ifc-lateien-en-geveldragers]]（同一内容） |
+| [ROOT-prefab_balkons.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-prefab_balkons.ifczip) | 12864 | `IFC-prefab_balkons.ifc` | [[models/buildingsmart-community/ifc-prefab-balkons]]（同一内容） |
+| [ROOT-prefab_trappen.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-prefab_trappen.ifczip) | 39017 | `IFC-prefab_trappen.ifc` | [[models/buildingsmart-community/ifc-prefab-trappen]]（同一内容） |
+| [ROOT-prefab_vloer_lifttop.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-prefab_vloer_lifttop.ifczip) | 7961 | `IFC-prefab_vloer_lifttop.ifc` | [[models/buildingsmart-community/ifc-prefab-vloer-lifttop]]（同一内容） |
+| [ROOT-staal.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-staal.ifczip) | 170769 | `IFC-staal.ifc` | [[models/buildingsmart-community/ifc-staal]]（同一内容） |
+| [ROOT-traphekken.ifczip](https://raw.githubusercontent.com/buildingsmart-community/Community-Sample-Test-Files/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ProjectData/ROOT-traphekken.ifczip) | 65394 | `IFC-traphekken.ifc` | [[models/buildingsmart-community/ifc-traphekken]]（同一内容） |
 
 ## メモ
 
