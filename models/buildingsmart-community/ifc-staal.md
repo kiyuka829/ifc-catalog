@@ -1,6 +1,7 @@
 ---
 type: "model"
 dataset: "[[datasets/buildingsmart-community]]"
+source_url: https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/Schependomlaan/Coordination%20model%20and%20subcontractors%20models/BIMsight%20Projectdata1/ROOT-staal.ifczip
 filename: "IFC-staal.ifc"
 archive_name: "ROOT-staal.ifczip"
 archive_path: "IFC-staal.ifc"

@@ -1,6 +1,7 @@
 ---
 type: model
 dataset: '[[datasets/buildingsmart-certification]]'
+source_url: https://github.com/buildingSMART/Certification-datasets/blob/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.3.2.0%20%28IFC%204.3%20ADD2%29/Simple-Scene/Infra-Electrical.ifc
 filename: Infra-Electrical.ifc
 archive_name: null
 archive_path: null

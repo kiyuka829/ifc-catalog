@@ -1,6 +1,7 @@
 ---
 type: "model"
 dataset: "[[datasets/buildingsmart-community]]"
+source_url: https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%204.0.2.1%20%28IFC%204%29/ISO%20Spec%20archive/slab-tessellated-unique-vertices.ifc
 filename: "slab-tessellated-unique-vertices.ifc"
 archive_name: null
 archive_path: null

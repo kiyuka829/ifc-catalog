@@ -1,6 +1,7 @@
 ---
 type: "model"
 dataset: "[[datasets/buildingsmart-community]]"
+source_url: https://github.com/buildingsmart-community/Community-Sample-Test-Files/blob/7ddf57a201f88a0c213d5322b02ed15e94a60a40/IFC%202.3.0.1%20%28IFC%202x3%29/SDK%20-%20S1/bSDD_references_example.ifc
 filename: "bSDD_references_example.ifc"
 archive_name: null
 archive_path: null
