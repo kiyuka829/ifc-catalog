@@ -17,10 +17,10 @@ ifc_schemas:
 
 # buildingSMART Certification datasets
 
-教育・実装・認証向けのサンプルIFC。建築・設備・橋・道路・鉄道などのSimple-Sceneと、IFC4のReference Viewの例を含む。
+教育・実装・認証向けのサンプルIFC。
 
-- 取得版: [リポジトリ](https://github.com/buildingSMART/Certification-datasets/tree/80d976a9b193a26a8e928c3e79bff67af1de68a8)
-- 取得時のコミット: `80d976a9b193a26a8e928c3e79bff67af1de68a8`
+- 確認版: [リポジトリ](https://github.com/buildingSMART/Certification-datasets/tree/80d976a9b193a26a8e928c3e79bff67af1de68a8)
+- 確認時のコミット: `80d976a9b193a26a8e928c3e79bff67af1de68a8`
 - ライセンス: [CC BY 4.0](https://github.com/buildingSMART/Certification-datasets/blob/80d976a9b193a26a8e928c3e79bff67af1de68a8/LICENSE)
 
 ## 配布ファイル
@@ -82,5 +82,4 @@ ifc_schemas:
 
 ## メモ
 
-- スキーマ一覧は取得したIFCのFILE_SCHEMAから確認したもの。
-- 旧コミュニティ収録分は [Community-Sample-Test-Files](https://github.com/buildingsmart-community/Community-Sample-Test-Files) に移管されている。
+- 旧コミュニティ収録分は [[datasets/buildingsmart-community]] に移管されている。
