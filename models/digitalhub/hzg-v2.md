@@ -1,6 +1,7 @@
 ---
 type: model
 dataset: '[[datasets/digitalhub]]'
+source_url: https://github.com/RWTH-E3D/DigitalHub/blob/36565d529b4dadeca625de2b793d7e16700171e9/Version_2/DigitalHub_FM-HZG_v2.ifc
 filename: DigitalHub_FM-HZG_v2.ifc
 archive_name: null
 archive_path: null

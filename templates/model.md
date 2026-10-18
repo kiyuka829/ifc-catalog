@@ -1,6 +1,7 @@
 ---
 type: model
 dataset: null
+source_url: null
 filename: null
 archive_name: null
 archive_path: null

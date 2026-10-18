@@ -17,10 +17,10 @@ ifc_schemas:
 
 # buildingSMART Certification datasets
 
-教育・実装・認証向けのサンプルIFC。建築・設備・橋・道路・鉄道などのSimple-Sceneと、IFC4のReference Viewの例を含む。
+教育・実装・認証向けのサンプルIFC。
 
-- 取得版: [リポジトリ](https://github.com/buildingSMART/Certification-datasets/tree/80d976a9b193a26a8e928c3e79bff67af1de68a8)
-- 取得時のコミット: `80d976a9b193a26a8e928c3e79bff67af1de68a8`
+- 確認版: [リポジトリ](https://github.com/buildingSMART/Certification-datasets/tree/80d976a9b193a26a8e928c3e79bff67af1de68a8)
+- 確認時のコミット: `80d976a9b193a26a8e928c3e79bff67af1de68a8`
 - ライセンス: [CC BY 4.0](https://github.com/buildingSMART/Certification-datasets/blob/80d976a9b193a26a8e928c3e79bff67af1de68a8/LICENSE)
 
 ## 配布ファイル
@@ -29,58 +29,57 @@ ifc_schemas:
 
 | 配布ファイル | モデル |
 | --- | --- |
-| [Building-Architecture.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%202.3.0.1%20%28IFC%202x3%20TC1%29/Simple-Scene/Building-Architecture.ifc) | [[models/buildingsmart-certification/ifc2x3-building-architecture]] |
-| [Building-Hvac.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%202.3.0.1%20%28IFC%202x3%20TC1%29/Simple-Scene/Building-Hvac.ifc) | [[models/buildingsmart-certification/ifc2x3-building-hvac]] |
-| [Building-Landscaping.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%202.3.0.1%20%28IFC%202x3%20TC1%29/Simple-Scene/Building-Landscaping.ifc) | [[models/buildingsmart-certification/ifc2x3-building-landscaping]] |
-| [Building-Structural.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%202.3.0.1%20%28IFC%202x3%20TC1%29/Simple-Scene/Building-Structural.ifc) | [[models/buildingsmart-certification/ifc2x3-building-structural]] |
-| [Infra-Bridge.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%202.3.0.1%20%28IFC%202x3%20TC1%29/Simple-Scene/Infra-Bridge.ifc) | [[models/buildingsmart-certification/ifc2x3-infra-bridge]] |
-| [Infra-Electrical.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%202.3.0.1%20%28IFC%202x3%20TC1%29/Simple-Scene/Infra-Electrical.ifc) | [[models/buildingsmart-certification/ifc2x3-infra-electrical]] |
-| [Infra-Landscaping.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%202.3.0.1%20%28IFC%202x3%20TC1%29/Simple-Scene/Infra-Landscaping.ifc) | [[models/buildingsmart-certification/ifc2x3-infra-landscaping]] |
-| [Infra-Plumbing.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%202.3.0.1%20%28IFC%202x3%20TC1%29/Simple-Scene/Infra-Plumbing.ifc) | [[models/buildingsmart-certification/ifc2x3-infra-plumbing]] |
-| [Infra-Rail.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%202.3.0.1%20%28IFC%202x3%20TC1%29/Simple-Scene/Infra-Rail.ifc) | [[models/buildingsmart-certification/ifc2x3-infra-rail]] |
-| [Infra-Road.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%202.3.0.1%20%28IFC%202x3%20TC1%29/Simple-Scene/Infra-Road.ifc) | [[models/buildingsmart-certification/ifc2x3-infra-road]] |
+| Building-Architecture.ifc | [[models/buildingsmart-certification/ifc2x3-building-architecture]] |
+| Building-Hvac.ifc | [[models/buildingsmart-certification/ifc2x3-building-hvac]] |
+| Building-Landscaping.ifc | [[models/buildingsmart-certification/ifc2x3-building-landscaping]] |
+| Building-Structural.ifc | [[models/buildingsmart-certification/ifc2x3-building-structural]] |
+| Infra-Bridge.ifc | [[models/buildingsmart-certification/ifc2x3-infra-bridge]] |
+| Infra-Electrical.ifc | [[models/buildingsmart-certification/ifc2x3-infra-electrical]] |
+| Infra-Landscaping.ifc | [[models/buildingsmart-certification/ifc2x3-infra-landscaping]] |
+| Infra-Plumbing.ifc | [[models/buildingsmart-certification/ifc2x3-infra-plumbing]] |
+| Infra-Rail.ifc | [[models/buildingsmart-certification/ifc2x3-infra-rail]] |
+| Infra-Road.ifc | [[models/buildingsmart-certification/ifc2x3-infra-road]] |
 
 ### IFC 4.0.2.1 (IFC 4 ADD2 TC1) / ISO Spec - ReferenceView_V1.2
 
 | 配布ファイル | モデル |
 | --- | --- |
-| [basin-tessellation.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/ISO%20Spec%20-%20ReferenceView_V1.2/basin-tessellation.ifc) | [[models/buildingsmart-certification/ifc4-basin-tessellation]] |
-| [column-straight-rectangle-tessellation.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/ISO%20Spec%20-%20ReferenceView_V1.2/column-straight-rectangle-tessellation.ifc) | [[models/buildingsmart-certification/ifc4-column-straight-rectangle-tessellation]] |
-| [tessellated-item.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/ISO%20Spec%20-%20ReferenceView_V1.2/tessellated-item.ifc) | [[models/buildingsmart-certification/ifc4-tessellated-item]] |
-| [tessellation-with-individual-colors.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/ISO%20Spec%20-%20ReferenceView_V1.2/tessellation-with-individual-colors.ifc) | [[models/buildingsmart-certification/ifc4-tessellation-with-individual-colors]] |
-| [wall-with-opening-and-window.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/ISO%20Spec%20-%20ReferenceView_V1.2/wall-with-opening-and-window.ifc) | [[models/buildingsmart-certification/ifc4-wall-with-opening-and-window]] |
+| basin-tessellation.ifc | [[models/buildingsmart-certification/ifc4-basin-tessellation]] |
+| column-straight-rectangle-tessellation.ifc | [[models/buildingsmart-certification/ifc4-column-straight-rectangle-tessellation]] |
+| tessellated-item.ifc | [[models/buildingsmart-certification/ifc4-tessellated-item]] |
+| tessellation-with-individual-colors.ifc | [[models/buildingsmart-certification/ifc4-tessellation-with-individual-colors]] |
+| wall-with-opening-and-window.ifc | [[models/buildingsmart-certification/ifc4-wall-with-opening-and-window]] |
 
 ### IFC 4.0.2.1 (IFC 4 ADD2 TC1) / Simple-Scene
 
 | 配布ファイル | モデル |
 | --- | --- |
-| [Building-Architecture.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/Simple-Scene/Building-Architecture.ifc) | [[models/buildingsmart-certification/ifc4-building-architecture]] |
-| [Building-Hvac.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/Simple-Scene/Building-Hvac.ifc) | [[models/buildingsmart-certification/ifc4-building-hvac]] |
-| [Building-Landscaping.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/Simple-Scene/Building-Landscaping.ifc) | [[models/buildingsmart-certification/ifc4-building-landscaping]] |
-| [Building-Structural.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/Simple-Scene/Building-Structural.ifc) | [[models/buildingsmart-certification/ifc4-building-structural]] |
-| [Infra-Bridge.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/Simple-Scene/Infra-Bridge.ifc) | [[models/buildingsmart-certification/ifc4-infra-bridge]] |
-| [Infra-Electrical.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/Simple-Scene/Infra-Electrical.ifc) | [[models/buildingsmart-certification/ifc4-infra-electrical]] |
-| [Infra-Landscaping.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/Simple-Scene/Infra-Landscaping.ifc) | [[models/buildingsmart-certification/ifc4-infra-landscaping]] |
-| [Infra-Plumbing.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/Simple-Scene/Infra-Plumbing.ifc) | [[models/buildingsmart-certification/ifc4-infra-plumbing]] |
-| [Infra-Rail.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/Simple-Scene/Infra-Rail.ifc) | [[models/buildingsmart-certification/ifc4-infra-rail]] |
-| [Infra-Road.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.0.2.1%20%28IFC%204%20ADD2%20TC1%29/Simple-Scene/Infra-Road.ifc) | [[models/buildingsmart-certification/ifc4-infra-road]] |
+| Building-Architecture.ifc | [[models/buildingsmart-certification/ifc4-building-architecture]] |
+| Building-Hvac.ifc | [[models/buildingsmart-certification/ifc4-building-hvac]] |
+| Building-Landscaping.ifc | [[models/buildingsmart-certification/ifc4-building-landscaping]] |
+| Building-Structural.ifc | [[models/buildingsmart-certification/ifc4-building-structural]] |
+| Infra-Bridge.ifc | [[models/buildingsmart-certification/ifc4-infra-bridge]] |
+| Infra-Electrical.ifc | [[models/buildingsmart-certification/ifc4-infra-electrical]] |
+| Infra-Landscaping.ifc | [[models/buildingsmart-certification/ifc4-infra-landscaping]] |
+| Infra-Plumbing.ifc | [[models/buildingsmart-certification/ifc4-infra-plumbing]] |
+| Infra-Rail.ifc | [[models/buildingsmart-certification/ifc4-infra-rail]] |
+| Infra-Road.ifc | [[models/buildingsmart-certification/ifc4-infra-road]] |
 
 ### IFC 4.3.2.0 (IFC 4.3 ADD2) / Simple-Scene
 
 | 配布ファイル | モデル |
 | --- | --- |
-| [Building-Architecture.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.3.2.0%20%28IFC%204.3%20ADD2%29/Simple-Scene/Building-Architecture.ifc) | [[models/buildingsmart-certification/ifc4x3-add2-building-architecture]] |
-| [Building-Hvac.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.3.2.0%20%28IFC%204.3%20ADD2%29/Simple-Scene/Building-Hvac.ifc) | [[models/buildingsmart-certification/ifc4x3-add2-building-hvac]] |
-| [Building-Landscaping.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.3.2.0%20%28IFC%204.3%20ADD2%29/Simple-Scene/Building-Landscaping.ifc) | [[models/buildingsmart-certification/ifc4x3-add2-building-landscaping]] |
-| [Building-Structural.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.3.2.0%20%28IFC%204.3%20ADD2%29/Simple-Scene/Building-Structural.ifc) | [[models/buildingsmart-certification/ifc4x3-add2-building-structural]] |
-| [Infra-Bridge.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.3.2.0%20%28IFC%204.3%20ADD2%29/Simple-Scene/Infra-Bridge.ifc) | [[models/buildingsmart-certification/ifc4x3-add2-infra-bridge]] |
-| [Infra-Electrical.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.3.2.0%20%28IFC%204.3%20ADD2%29/Simple-Scene/Infra-Electrical.ifc) | [[models/buildingsmart-certification/ifc4x3-add2-infra-electrical]] |
-| [Infra-Landscaping.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.3.2.0%20%28IFC%204.3%20ADD2%29/Simple-Scene/Infra-Landscaping.ifc) | [[models/buildingsmart-certification/ifc4x3-add2-infra-landscaping]] |
-| [Infra-Plumbing.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.3.2.0%20%28IFC%204.3%20ADD2%29/Simple-Scene/Infra-Plumbing.ifc) | [[models/buildingsmart-certification/ifc4x3-add2-infra-plumbing]] |
-| [Infra-Rail.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.3.2.0%20%28IFC%204.3%20ADD2%29/Simple-Scene/Infra-Rail.ifc) | [[models/buildingsmart-certification/ifc4x3-add2-infra-rail]] |
-| [Infra-Road.ifc](https://raw.githubusercontent.com/buildingSMART/Certification-datasets/80d976a9b193a26a8e928c3e79bff67af1de68a8/IFC%204.3.2.0%20%28IFC%204.3%20ADD2%29/Simple-Scene/Infra-Road.ifc) | [[models/buildingsmart-certification/ifc4x3-add2-infra-road]] |
+| Building-Architecture.ifc | [[models/buildingsmart-certification/ifc4x3-add2-building-architecture]] |
+| Building-Hvac.ifc | [[models/buildingsmart-certification/ifc4x3-add2-building-hvac]] |
+| Building-Landscaping.ifc | [[models/buildingsmart-certification/ifc4x3-add2-building-landscaping]] |
+| Building-Structural.ifc | [[models/buildingsmart-certification/ifc4x3-add2-building-structural]] |
+| Infra-Bridge.ifc | [[models/buildingsmart-certification/ifc4x3-add2-infra-bridge]] |
+| Infra-Electrical.ifc | [[models/buildingsmart-certification/ifc4x3-add2-infra-electrical]] |
+| Infra-Landscaping.ifc | [[models/buildingsmart-certification/ifc4x3-add2-infra-landscaping]] |
+| Infra-Plumbing.ifc | [[models/buildingsmart-certification/ifc4x3-add2-infra-plumbing]] |
+| Infra-Rail.ifc | [[models/buildingsmart-certification/ifc4x3-add2-infra-rail]] |
+| Infra-Road.ifc | [[models/buildingsmart-certification/ifc4x3-add2-infra-road]] |
 
 ## メモ
 
-- スキーマ一覧は取得したIFCのFILE_SCHEMAから確認したもの。
-- 旧コミュニティ収録分は [Community-Sample-Test-Files](https://github.com/buildingsmart-community/Community-Sample-Test-Files) に移管されている。
+- 旧コミュニティ収録分は [[datasets/buildingsmart-community]] に移管されている。
