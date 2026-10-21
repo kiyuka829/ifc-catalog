@@ -81,6 +81,8 @@ git lfs pull --include="*.ifc,*.IFC,*.ifczip,*.ifcZIP" --exclude=""
 | --- | --- |
 | bSDD_references_example.ifc | [[models/buildingsmart-community/bsdd-references-example]] |
 
+外部配布のSixty5モデルは [[datasets/sixty5]] に登録。
+
 ### IFC 2.3.0.1 (IFC 2x3) / Schependomlaan / As Planned models
 
 | 配布ファイル | モデル |
