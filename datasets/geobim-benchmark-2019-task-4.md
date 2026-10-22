@@ -33,6 +33,7 @@ GeoBIM Benchmark 2019のIFC・CityGML相互変換テストの成果。
 ### T4_amsterdam_FZKViewer_IFC2x3.zip
 
 - 配布URL: [T4_amsterdam_FZKViewer_IFC2x3.zip](https://zenodo.org/api/records/4013814/files/T4_amsterdam_FZKViewer_IFC2x3.zip/content)
+- 内容一覧・個別取得: [ZIP内容一覧（Zenodo API）](https://zenodo.org/api/records/4013814/files/T4_amsterdam_FZKViewer_IFC2x3.zip/container)
 - 形式: `zip`
 - 圧縮ファイルサイズ: 1098793763 bytes
 - モデル: [[models/geobim-benchmark-2019-task-4/amsterdam-ifc2x3]]

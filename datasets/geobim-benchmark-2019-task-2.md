@@ -24,6 +24,7 @@ GeoBIM Benchmark 2019のIFC地理参照テストの成果データ。
 ### benchmarkTask2_georeferencedIFC.zip
 
 - 配布URL: [benchmarkTask2_georeferencedIFC.zip](https://zenodo.org/api/records/3967023/files/benchmarkTask2_georeferencedIFC.zip/content)
+- 内容一覧・個別取得: [ZIP内容一覧（Zenodo API）](https://zenodo.org/api/records/3967023/files/benchmarkTask2_georeferencedIFC.zip/container)
 - 形式: `zip`
 - 圧縮ファイルサイズ: 858380932 bytes
 
